@@ -12,7 +12,7 @@ Here’s the Architecture
 
 ![Screen Shoot Chatbot](./ss/ss-chatbot/ss-chatbot.jpg)
 
-Video Demo  1 -> ![Video Demo - Chatbot](./ss/video-demo.mp4)
+Video Demo  -> ![Video Demo - Chatbot](./ss/video-demo.mp4)
 
 
 # Table of Contents Creat ETL Big Data Apache Spark
@@ -183,10 +183,10 @@ By following these steps, you can successfully perform an ETL process using Apac
 
 # Table of Contents Chabot AI LLM 
 
-  * [1. Create Gemini API Key]
-  * [2. Python & Dependencies Installation]
-  * [3. Creating the Chatbot Backend Program]
-  * [4. Creating the Chatbot Frontend Program]
+  * [1. Create Gemini API Key](http://github.com/dendie-sanjaya/apache-spark-etl#Create-Gemini-API-Key)
+  * [2. Python & Dependencies Installation][Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/1-apache-spark-etl#Python-and-Dependencies-Installation)
+  * [3. Creating the Chatbot Backend Program][Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/2-apache-spark-etl#konsep-etl-dengan-apache-spark)
+  * [4. Creating the Chatbot Frontend Program][Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/3-Creating-the-Chatbot-Frontend-Program)
 
 
 # AI LLM Gemini
@@ -210,17 +210,17 @@ The example below utilizes the Gemini LLM API.
 ![Screen Shoot Chatbot](./ss/ss-chatbot/ss-chatbot.jpg)
 
 
-Video Demo  1 -> ![Video Demo - Chatbot](./ss/video-demo.mp4)
+Video Demo -> ![Video Demo - Chatbot](./ss/video-demo.mp4)
 
 
 
-## 1\. Create Gemini API Key
+## 1 Create Gemini API Key
 
 The first step is to create an API Key on aistudio.google.com to access the Gemini AI LLM using its API.
 
 ![Code Program](./ss/ss-chatbot/1.png)
 
-## 2\. Python & Dependencies Installation
+## Python and Dependencies Installation
 
 To set up the Python environment and install the necessary libraries, follow these steps:
 
@@ -231,7 +231,7 @@ source venv/bin/activate
 pip install Flask Flask-Cors google-generativeai python-dotenv
 ```
 
-## 3\. Creating the Chatbot Backend Program
+## 2 Creating the Chatbot Backend Program
 
 Below is the Python script for the backend, which processes user queries by integrating the Gemini LLM API and a local Database.
 
@@ -246,7 +246,7 @@ python3 app.py
 ![ss](./ss/ss-chatbot/2.png)
 
 
-## 4\. Creating the Chatbot Frontend Program
+## 3 Creating the Chatbot Frontend Program
 
 Below is the script for the web-based frontend program that processes questions and displays AI-generated answers. This frontend can be run on a web server like Apache or Nginx, or simply by opening the HTML file directly in your browser while the backend is running.
 
@@ -254,7 +254,8 @@ Below is the script for the web-based frontend program that processes questions 
 
 ![ss](./ss/ss-chatbot/ss-chatbot-3.jpg)
 
-## Contact
+
+# Contact
 
 If you have questions, you can contact this email
 Email: dendie.sanjaya@gmail.com
