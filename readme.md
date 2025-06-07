@@ -250,7 +250,7 @@ Below is the script for the web-based frontend program that processes questions 
 
 ![Code Program Frontend](./frontend/frontend.html)
 
-![ss](./ss/ss-chatbot/ss-chatbot-3.jpg)
+![ss](./ss/ss-chatbot/ss-chatbot.jpg)
 
 
 ## Contact
