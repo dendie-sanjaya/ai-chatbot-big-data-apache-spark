@@ -17,24 +17,24 @@ Video Demo  -> ![Video Demo - Chatbot](./ss/video-demo.mp4)
 
 # Table of Contents Creat ETL Big Data Apache Spark
 
-1.  [Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/apache-spark-etl#konsep-etl-dengan-apache-spark)
-      * [Data Sources](http://github.com/dendie-sanjaya/apache-spark-etl#data-sources)
-      * [Apache Spark Data Source Flexibility](http://github.com/dendie-sanjaya/apache-spark-etl#apache-spark-data-source-flexibility)
-      * [Apache Spark ETL Output Destinations](http://github.com/dendie-sanjaya/apache-spark-etl#apache-spark-etl-output-destinations)
-2.  [Environment Setup](http://github.com/dendie-sanjaya/apache-spark-etl#environment-setup)
-      * [1. Python Installation](http://github.com/dendie-sanjaya/apache-spark-etl#1-python-installation)
-      * [2. JRE (Java Runtime Environment) Installation](http://github.com/dendie-sanjaya/apache-spark-etl#2-jre-java-runtime-environment-installation)
-      * [3. PySpark Installation](http://github.com/dendie-sanjaya/apache-spark-etl#3-pyspark-installation)
-3.  [Project Structure](http://github.com/dendie-sanjaya/apache-spark-etl#project-structure)
-4.  [ETL Process Steps](http://github.com/dendie-sanjaya/apache-spark-etl#etl-process-steps)
-      * [1. Creating Sample Data (`setup_db.py`)](http://github.com/dendie-sanjaya/apache-spark-etl#1-creating-sample-data-setup_db.py)
-      * [2. Core ETL Process (`etl_process.py`)](http://github.com/dendie-sanjaya/apache-spark-etl#2-core-etl-process-etl_process.py)
-          * [Download SQLite JDBC Driver](http://github.com/dendie-sanjaya/apache-spark-etl#download-sqlite-jdbc-driver)
-          * [ETL Program Code](http://github.com/dendie-sanjaya/apache-spark-etl#etl-program-code)
-          * [ETL Process Output](http://github.com/dendie-sanjaya/apache-spark-etl#etl-process-output)
-5.  [Verifying ETL Results](http://github.com/dendie-sanjaya/apache-spark-etl#verifying-etl-results)
-      * [1. Viewing Parquet Data with GUI](http://github.com/dendie-sanjaya/apache-spark-etl#1-viewing-parquet-data-with-gui)
-      * [2. Querying ETL Results Using Apache Spark SQL](http://github.com/dendie-sanjaya/apache-spark-etl#2-querying-etl-results-using-apache-spark-sql)
+1.  [Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#konsep-etl-dengan-apache-spark)
+      * [Data Sources](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#data-sources)
+      * [Apache Spark Data Source Flexibility](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#apache-spark-data-source-flexibility)
+      * [Apache Spark ETL Output Destinations](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#apache-spark-etl-output-destinations)
+2.  [Environment Setup](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#environment-setup)
+      * [1. Python Installation](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#1-python-installation)
+      * [2. JRE (Java Runtime Environment) Installation](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#2-jre-java-runtime-environment-installation)
+      * [3. PySpark Installation](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#3-pyspark-installation)
+3.  [Project Structure](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#project-structure)
+4.  [ETL Process Steps](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#etl-process-steps)
+      * [1. Creating Sample Data (`setup_db.py`)](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#1-creating-sample-data-setup_db.py)
+      * [2. Core ETL Process (`etl_process.py`)](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#2-core-etl-process-etl_process.py)
+          * [Download SQLite JDBC Driver](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#download-sqlite-jdbc-driver)
+          * [ETL Program Code](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#etl-program-code)
+          * [ETL Process Output](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#etl-process-output)
+5.  [Verifying ETL Results](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#verifying-etl-results)
+      * [1. Viewing Parquet Data with GUI](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#1-viewing-parquet-data-with-gui)
+      * [2. Querying ETL Results Using Apache Spark SQL](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#2-querying-etl-results-using-apache-spark-sql)
 
 
 ## Apache Spark  
@@ -183,7 +183,7 @@ By following these steps, you can successfully perform an ETL process using Apac
 
 # Table of Contents Chabot AI LLM 
 
-  * [1. Create Gemini API Key](http://github.com/dendie-sanjaya/apache-spark-etl#Create-Gemini-API-Key)
+  * [1. Create Gemini API Key](http://github.com/dendie-sanjaya/ai-chatbot-big-data-apache-spark#Create-Gemini-API-Key)
   * [2. Python & Dependencies Installation][Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/1-apache-spark-etl#Python-and-Dependencies-Installation)
   * [3. Creating the Chatbot Backend Program][Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/2-apache-spark-etl#konsep-etl-dengan-apache-spark)
   * [4. Creating the Chatbot Frontend Program][Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/3-Creating-the-Chatbot-Frontend-Program)
