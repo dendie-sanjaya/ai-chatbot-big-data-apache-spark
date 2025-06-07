@@ -10,6 +10,10 @@ Here’s the Architecture
 ![ss](./ss/architecture.png)
 
 
+![Screen Shoot Chatbot](./ss/ss-chatbot/ss-chatbot.jpg)
+
+Video Demo  1 -> ![Video Demo - Chatbot](./ss/video-demo.mp4)
+
 
 # Table of Contents Creat ETL Big Data Apache Spark
 
@@ -177,17 +181,6 @@ By following these steps, you can successfully perform an ETL process using Apac
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Table of Contents Chabot AI LLM 
 
   * [1. Create Gemini API Key]
@@ -196,7 +189,7 @@ By following these steps, you can successfully perform an ETL process using Apac
   * [4. Creating the Chatbot Frontend Program]
 
 
-# AI LLM 
+# AI LLM Gemini
 
 Machine Learning (ML) is a branch of artificial intelligence (AI) that studies patterns and makes predictions based on data.
 
@@ -205,6 +198,11 @@ LLM, or Large Language Model, is a type of ML model trained using a massive amou
 The code example presented here demonstrates a combination of AI LLM and a Apache Spark Big Data  to answer user questions by integrating with internal data.
 
 For instance, to inquire about the online status of a device, the data flow will involve querying an internal data i apache spark to retrieve the device's status.
+
+For this example used API AI LLM Gemini, if you need for create LLM Service inferance you can follow this research in : 
+
+1. Create Ollama Inference Server LLM -> https://github.com/dendie-sanjaya/ai-ml-llm-ollama
+2. Create Chatbot AI use onpremiese Inference Server -> https://github.com/dendie-sanjaya/ai-chat-bot 
 
 
 The example below utilizes the Gemini LLM API.
