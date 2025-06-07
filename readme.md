@@ -1,5 +1,5 @@
 
-# Revolutionizing RAG (Retrieval Augmentation Generation): Leveraging Apache Spark Big Data for Intelligent AI Chatbots
+# Revolutionizing RAG Leveraging Apache Spark Big Data for Intelligent AI Chatbots
 
 Revolutionizing RAG (Retrieval Augmentation Generation) Leveraging Apache Spark Big Data for Intelligent AI Chatbots
 
@@ -7,12 +7,12 @@ Have you ever been frustrated with your AI chatbot giving incoherent or ‘hallu
 
 Here’s the Architecture
 
-Berikut ini adalah Arsitekur nya 
 ![ss](./ss/architecture.png)
 
 
 
-# Table of Contents Creat ETL Big Data Apache Spart 
+# Table of Contents Creat ETL Big Data Apache Spark
+
 1.  [Concept of ETL with Apache Spark](http://github.com/dendie-sanjaya/apache-spark-etl#konsep-etl-dengan-apache-spark)
       * [Data Sources](http://github.com/dendie-sanjaya/apache-spark-etl#data-sources)
       * [Apache Spark Data Source Flexibility](http://github.com/dendie-sanjaya/apache-spark-etl#apache-spark-data-source-flexibility)
@@ -177,3 +177,86 @@ By following these steps, you can successfully perform an ETL process using Apac
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+# Table of Contents Chabot AI LLM 
+
+  * [1. Create Gemini API Key]
+  * [2. Python & Dependencies Installation]
+  * [3. Creating the Chatbot Backend Program]
+  * [4. Creating the Chatbot Frontend Program]
+
+
+# AI LLM 
+
+Machine Learning (ML) is a branch of artificial intelligence (AI) that studies patterns and makes predictions based on data.
+
+LLM, or Large Language Model, is a type of ML model trained using a massive amount of text to understand and generate natural language.
+
+The code example presented here demonstrates a combination of AI LLM and a Apache Spark Big Data  to answer user questions by integrating with internal data.
+
+For instance, to inquire about the online status of a device, the data flow will involve querying an internal data i apache spark to retrieve the device's status.
+
+
+The example below utilizes the Gemini LLM API.
+
+![Screen Shoot Chatbot](./ss/ss-chatbot/ss-chatbot.jpg)
+
+
+Video Demo  1 -> ![Video Demo - Chatbot](./ss/video-demo.mp4)
+
+
+
+## 1\. Create Gemini API Key
+
+The first step is to create an API Key on aistudio.google.com to access the Gemini AI LLM using its API.
+
+![Code Program](./ss/ss-chatbot/1.png)
+
+## 2\. Python & Dependencies Installation
+
+To set up the Python environment and install the necessary libraries, follow these steps:
+
+```bash
+apt install python3.10-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install Flask Flask-Cors google-generativeai python-dotenv
+```
+
+## 3\. Creating the Chatbot Backend Program
+
+Below is the Python script for the backend, which processes user queries by integrating the Gemini LLM API and a local Database.
+
+![Code Program Backend](./app.py)
+
+**How to Run:**
+
+```bash
+python3 app.py
+```
+
+![ss](./ss/ss-chatbot/2.png)
+
+
+## 4\. Creating the Chatbot Frontend Program
+
+Below is the script for the web-based frontend program that processes questions and displays AI-generated answers. This frontend can be run on a web server like Apache or Nginx, or simply by opening the HTML file directly in your browser while the backend is running.
+
+![Code Program Frontend](./frontend/frontend.html)
+
+![ss](./ss/ss-chatbot/ss-chatbot-3.jpg)
+
+## Contact
+
+If you have questions, you can contact this email
+Email: dendie.sanjaya@gmail.com
