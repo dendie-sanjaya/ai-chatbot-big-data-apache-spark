@@ -1,8 +1,11 @@
 
 # Revolutionizing RAG (Retrieval Augmentation Generation): Leveraging Apache Spark Big Data for Intelligent AI Chatbots
 
-Pernahkah Anda frustrasi dengan chatbot AI yang memberikan jawaban ngawur atau 'halusinasi'? Di era data raksasa, akurasi adalah segalanya. Kami telah menemukan bagaimana Retrieval-Augmented Generation (RAG) yang didukung oleh kekuatan Apache Spark Big Data dapat secara dramatis mengubah permainan, menjadikan chatbot Anda tidak hanya cerdas, tetapi juga sangat dapat diandalkan.
+Revolutionizing RAG (Retrieval Augmentation Generation) Leveraging Apache Spark Big Data for Intelligent AI Chatbots
 
+Have you ever been frustrated with your AI chatbot giving incoherent or ‘hallucinatory’ answers? In the era of big data, accuracy is everything. We’ve discovered how Retrieval-Augmented Generation (RAG) powered by the power of Apache Spark Big Data can dramatically change the game, making your chatbot not only intelligent, but also highly reliable.
+
+Here’s the Architecture
 
 Berikut ini adalah Arsitekur nya 
 ![ss](./ss/architecture.png)
